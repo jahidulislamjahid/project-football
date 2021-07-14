@@ -59,7 +59,6 @@ button i{
 .banner-image:hover{
     width: 90%;
     transition: 1s;
-
 }
 .top-banner button{
     margin-left: 7em;
@@ -122,6 +121,23 @@ button i{
     background-image: linear-gradient(30deg, blue, cyan);
     border-radius: 5px;
     box-shadow: 5px 5px 5px #436aecc2;
+}
+/* extra--section */
+.extra-section{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.extra-section button{
+    background-image: linear-gradient(30deg, blue, cyan);
+    padding: 3%;
+    margin: 3%;
+    border: 0; 
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #436aecc2;
+}
+.extra-section a{
+    text-decoration: none;
+    color: white;
 }
 /* footer--section */
 footer{
