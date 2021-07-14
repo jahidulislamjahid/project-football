@@ -89,7 +89,7 @@ button i{
 .bottom-section{
     display: grid;
     grid-template-columns: repeat(2, 40%);
-    grid-column-gap: 1em;
+    grid-column-gap: 3em;
     justify-content: center;
     margin-top: 10%;
 }
@@ -98,4 +98,28 @@ button i{
 }
 .bottom-section img{
     width: 100%;
+}
+.bottom-section button{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+/* footer--section */
+footer{
+    margin-top: 10%;
+}
+footer img{
+    margin-left: 25%;
+    width: 40%;
+}
+footer p{
+    width: 80%;
+    margin-left: 35%;
+}
+footer i{
+    margin: 1%;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 1%;
 }
