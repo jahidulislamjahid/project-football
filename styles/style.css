@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: lightslategray;
+    background-color: rgb(231, 231, 231);
 }
 /* top--section */
 .top-section{
@@ -27,8 +27,39 @@ nav li a{
     text-decoration: none;
     color: white;
 }
-.nav-bar i{
-    margin-left: 30em;
+.nav-bar button{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 20px 10px 20px;
+    margin-left: 40em;
     margin-top: 20px;
+}
+button i{
     color: white;
+}
+/* top--banner */
+.top-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.top-banner h1{
+    margin-left: 1em;
+    padding-left: 1em;
+    font-size: 46px;
+    color: white;
+}
+.top-banner img{
+    width: 70%;
+}
+.top-banner button{
+    margin-left: 7em;
+    padding: 1em;
+    color: white;
+    background-color: orangered;
+
+}
+.top-banner a{
+    text-decoration: none;
 }
