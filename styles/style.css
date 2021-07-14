@@ -2,19 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: cornflowerblue;
+    background-color: lightslategray;
+}
+/* top--section */
+.top-section{
+    height: 670px;
+    background-color: teal;
 }
 /* navigation--style */
-.nav-bar{
+nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: white;
 }
 nav ul{
-    list-style-type: none;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    list-style-type: none;
+}
+nav li{
+    margin-right: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
 }
 .nav-bar i{
+    margin-left: 30em;
     margin-top: 20px;
+    color: white;
 }
