@@ -149,12 +149,12 @@ footer h4{
     .top-section{
         width: 100%;
     }
-    nav{
-        width: auto;
-    }
     .top-banner{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .top-banner img{
+        margin-top: 5%;
     }
     .mid-section{
         width: 100%;
