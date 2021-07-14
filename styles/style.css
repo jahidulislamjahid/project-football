@@ -56,6 +56,11 @@ button i{
 .top-banner img{
     width: 70%;
 }
+.banner-image:hover{
+    width: 90%;
+    transition: 1s;
+
+}
 .top-banner button{
     margin-left: 7em;
     padding: 1em;
