@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(231, 231, 231);
+    background-color: whitesmoke;
 }
 /* top--section */
 .top-section{
@@ -75,6 +75,7 @@ button i{
 .players{
     background-color: white;
     padding: 15px;
+    box-shadow: 10px 10px 8px #d6d6d6c2;
 }
 .players img{
     width: 100%;
@@ -83,4 +84,18 @@ button i{
     font-family: sans-serif;    
     font-weight: 300;
     color: gray;
+}
+/* bottom--section */
+.bottom-section{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-column-gap: 1em;
+    justify-content: center;
+    margin-top: 10%;
+}
+.bottom-section h1{
+    margin-top: 20%;
+}
+.bottom-section img{
+    width: 100%;
 }
