@@ -63,3 +63,18 @@ button i{
 .top-banner a{
     text-decoration: none;
 }
+/* middle-section */
+.mid-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+.players{
+    background-color: white;
+    padding: 10px;
+}
+.players img{
+    width: 50%;
+}
