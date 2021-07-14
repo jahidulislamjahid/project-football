@@ -1,1 +1,20 @@
-
+/* font--family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: cornflowerblue;
+}
+/* navigation--style */
+.nav-bar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.nav-bar i{
+    margin-top: 20px;
+}
