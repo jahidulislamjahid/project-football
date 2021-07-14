@@ -160,6 +160,7 @@ footer i{
 footer h4{
     font-family: sans-serif;
     padding-left: 40%;
+    margin-bottom: 5em;
 
 }
 /* responsive */
@@ -185,6 +186,9 @@ footer h4{
     .bottom-section{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .extra-section{
+        margin-left: 30%;
     }
     footer{
         width: 100%;
