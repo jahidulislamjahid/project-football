@@ -141,3 +141,37 @@ footer h4{
     padding-left: 40%;
 
 }
+/* responsive */
+@media only screen and (max-width:688px) {
+    nav{
+        display: none;
+    }
+    .top-section{
+        width: 100%;
+    }
+    nav{
+        width: auto;
+    }
+    .top-banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .mid-section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bottom-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    footer{
+        width: 100%;
+    }
+    footer p{
+        padding-left: 35%;
+    }
+    footer h4{
+        padding-left: 25%;
+    }
+}
